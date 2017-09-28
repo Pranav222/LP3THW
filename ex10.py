@@ -17,3 +17,7 @@ print(tabby_cat)
 print(persian_cat)
 print(backslash_cat)
 print(fat_cat)
+
+# New code with format strings and escape characters
+escape = '\none! \ntwo \nthree \nfour \nfive \nsix \nseven \nten: {}'
+print(escape.format('\n\t100\n\t1000'))
